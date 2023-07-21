@@ -2,6 +2,8 @@ This gem provides helper methods to [FactoryGirl](https://github.com/thoughtbot/
 
 The goal is to clean up test code and speed up performance where your tests use models that have required associations but where those associations are not themselves referenced in the tests.
 
+**This gem has been replaced with [FactoryBotAnyInstance](https://github.com/bdurand/factory_bot_any_instance)**
+
 ### Example
 
 For instance, suppose you have factories for a BlogPost model which has many Comments and each comment requires an associated User:
